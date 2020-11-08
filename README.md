@@ -10,3 +10,6 @@ The model with the lowest loss was the with the Bitcoin closing prices data (0.0
 The closing price model tracks actual values better over time.  The plot shows that well and the variance in the closing compared to the FNG is better (10-Day Closing Variance - 2140; 10-Day FNG Variance - 5325).
 ### Which window size works best for the model?
 The window size that worked best for the model was the 5-day window because the variance is 1976 whereas the the variance in a 10-day window is 2140.
+## Tips:
+- Remember to restart kernel incase of "bugs".
+- Type "conda activate pyvizenv" in your terminal before opening these notebooks.
